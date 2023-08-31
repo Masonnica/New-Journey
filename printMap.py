@@ -19,8 +19,13 @@ def print(x = x, y = y, z = z):
   printTile(x, y, z)
     
 def printTile(x, y, z, map):
-  for a in range(-(blockHeight / 2), (blockHeight / 2) + 1):
-    for b in range(-(blockWidth / 2), (blockWidth / 2) + 1):
-      pos = ((Width / 2), (Height / 2))
-      block = Block(id, Tile)
-      rect = block.get_rect(topleft = pos)
+  if z > 5:
+    re = 6
+  else:
+    re = z + 1
+  for a in range(0, re):
+    for b in range(-(blockHeight / 2), (blockHeight / 2) + 1):
+      for c in range(-(blockWidth / 2), (blockWidth / 2) + 1):
+        pos = ((Width / 2), (Height / 2))
+        block = Block(id, "Tile")
+        rect = block.get_rect(topleft = pos)
