@@ -8,7 +8,7 @@ class Game:
   def __init__(self):
     pygame.init()
     pygame.display.set_caption("New Journey")
-    self.screen = pygame.display.set_mode((Width, Hight))
+    self.screen = pygame.display.set_mode((Width, Height))
     self.clock = pygame.time.Clock()
 
   def run(self):
