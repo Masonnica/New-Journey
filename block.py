@@ -6,6 +6,7 @@ def Block(id, type):
 
 def Tile(id):
   tile = ['Unknown',
+          'None',
           'Grass',
           'Dirt',
           'Water',
