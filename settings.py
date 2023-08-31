@@ -1,5 +1,5 @@
-Width = 520
-Height = 320
+Width = 546
+Height = 322
 FPS = 60
 
 blockWidth = 26

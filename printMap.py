@@ -3,7 +3,7 @@ import math
 from settings import *
 from block import Block
 
-with open("infoPlay.txt", "r") as fileOut:
+with open("playPos.txt", "r") as fileOut:
   file = fileOut.readlines()
   file = str(file)
   file = file.replace("\\n", "")
