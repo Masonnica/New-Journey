@@ -23,7 +23,7 @@ def printTile(x, y, z, map):
     re = 6
   else:
     re = z + 1
-  for a in range(0, re):
+  for a in range(re):
     for b in range(-(blockHeight / 2), (blockHeight / 2) + 1):
       for c in range(-(blockWidth / 2), (blockWidth / 2) + 1):
         pos = ((Width / 2), (Height / 2))

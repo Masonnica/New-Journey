@@ -1,13 +1,14 @@
 import pygame, sys
 from pygame.locals import *
 from settings import *
+from menu import *
 from printMap import *
 from debug import debug
 
 class Game:
   def __init__(self):
     pygame.init()
-    pygame_icon = pygame.image.load("png/Logo/logo.png")
+    pygame_icon = pygame.image.load("png/UI/logo.png")
     pygame.display.set_icon(pygame_icon)
     pygame.display.set_caption("New Journey" + Version)
     self.screen = pygame.display.set_mode((Width, Height))
