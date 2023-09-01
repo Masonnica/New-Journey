@@ -16,7 +16,7 @@ with open("playPos.txt", "r") as fileOut:
   z = file[2]
 
 def print(x = x, y = y, z = z):
-  printTile(x, y, z)
+  printTile(x, y, z, "")
     
 def printTile(x, y, z, map):
   if z > 5:
@@ -26,6 +26,7 @@ def printTile(x, y, z, map):
   for a in range(re):
     for b in range(-(blockHeight / 2), (blockHeight / 2) + 1):
       for c in range(-(blockWidth / 2), (blockWidth / 2) + 1):
+        pass
         pos = ((Width / 2), (Height / 2))
         block = Block(id, "Tile")
         rect = block.get_rect(topleft = pos)

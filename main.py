@@ -15,15 +15,20 @@ class Game:
     self.clock = pygame.time.Clock()
 
   def run(self):
+    print(menuHome())
     while True:
       for event in pygame.event.get():
         if event.type == pygame.QUIT:
           pygame.quit()
           sys.exit()
+          return 0
 
       self.screen.fill('white')
       self.clock.tick(FPS)
       pygame.display.update()
+
+  def menuHome():
+    while True:
 
 if __name__ == '__main__':
   game = Game()
