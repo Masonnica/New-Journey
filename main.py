@@ -7,7 +7,9 @@ from debug import debug
 class Game:
   def __init__(self):
     pygame.init()
-    pygame.display.set_caption("New Journey")
+    pygame_icon = pygame.image.load("png/Logo/logo.png")
+    pygame.display.set_icon(pygame_icon)
+    pygame.display.set_caption("New Journey" + Version)
     self.screen = pygame.display.set_mode((Width, Height))
     self.clock = pygame.time.Clock()
 

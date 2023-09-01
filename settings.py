@@ -1,3 +1,4 @@
+Version = "(Ver *)"
 Width = 546
 Height = 322
 FPS = 60
