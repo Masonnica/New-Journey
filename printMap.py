@@ -15,7 +15,7 @@ with open("playPos.txt", "r") as fileOut:
   y = file[1]
   z = file[2]
 
-def print(x = x, y = y, z = z):
+'''def print(x = x, y = y, z = z):
   printTile(x, y, z, "")
     
 def printTile(x, y, z, map):
@@ -29,4 +29,4 @@ def printTile(x, y, z, map):
         pass
         pos = ((Width / 2), (Height / 2))
         block = Block(id, "Tile")
-        rect = block.get_rect(topleft = pos)
+        rect = block.get_rect(topleft = pos)'''

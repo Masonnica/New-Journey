@@ -27,9 +27,6 @@ class Game:
       self.clock.tick(FPS)
       pygame.display.update()
 
-  def menuHome():
-    while True:
-
 if __name__ == '__main__':
   game = Game()
   game.run()
